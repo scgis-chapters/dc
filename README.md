@@ -17,7 +17,9 @@ It has no build step, package manager, database, or server-side application.
 |-- assets/
 |   |-- css/
 |   |   `-- styles.css        # Layout, colors, typography, and responsive rules
-|   `-- images/               # Published logos, photos, and chapter images
+|   |-- images/               # Published logos, photos, and chapter images
+|   `-- js/
+|       `-- header.js         # Mobile header collapse behavior
 |-- .nojekyll                 # Serves the site without Jekyll processing
 |-- .gitignore
 `-- README.md
