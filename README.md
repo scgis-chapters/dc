@@ -2,7 +2,7 @@
 
 Website for the Washington, DC chapter of the Society for Conservation GIS.
 
-**Live site:** [scgis-dc.github.io/scgis-dc](https://scgis-dc.github.io/scgis-dc/)
+**Live site:** [scgis-dc.github.io/scgis-dc](https://scgis-dc.github.io/dc/)
 
 ## About the site
 
