@@ -66,14 +66,10 @@ attribute in `index.html` if the chapter changes calendars.
 
 ### Community survey
 
-The temporary survey area is inside Chapter Updates. When the Google Form is
-ready:
-
-1. Open the form in Google Forms.
-2. Select **Send**, then **Embed HTML** (`<>`).
-3. Copy the generated `<iframe>`.
-4. Replace the `survey-placeholder` element in `index.html` with that iframe.
-5. Preview the page at desktop and mobile widths before publishing.
+The Google Form is embedded inside Chapter Updates, with a survey announcement
+near the top of the page. To replace the form later, update both Google Forms
+URLs in `index.html`: the iframe's `src` and the fallback link's `href`. Preview
+the page at desktop and mobile widths before publishing.
 
 ### Chapter leads
 
