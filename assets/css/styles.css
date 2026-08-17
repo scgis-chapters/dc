@@ -425,6 +425,50 @@ a {
   color: var(--moss-deep);
 }
 
+.website-feedback-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 20px;
+  background: rgba(235, 242, 226, 0.55);
+  box-shadow: none;
+}
+
+.website-feedback-section h2 {
+  margin: 0 0 0.3rem;
+  font-family: var(--display-font);
+  font-size: 1.15rem;
+  line-height: 1.2;
+  color: var(--moss-deep);
+}
+
+.feedback-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.feedback-button {
+  flex: 0 0 auto;
+  padding: 0.7rem 1rem;
+  border: 1px solid rgba(0, 124, 145, 0.24);
+  border-radius: 999px;
+  color: var(--primary-deep);
+  background: var(--white);
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.feedback-button:hover,
+.feedback-button:focus-visible {
+  border-color: var(--primary);
+  transform: translateY(-1px);
+}
+
 .survey-embed {
   min-width: 0;
   overflow: hidden;
@@ -623,6 +667,11 @@ a {
 
   .survey-embed iframe {
     height: 1100px;
+  }
+
+  .website-feedback-section {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .footer-shell {
