@@ -444,7 +444,7 @@ a {
 
 .survey-section {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(220px, 0.65fr) minmax(0, 1.35fr);
   gap: 1.5rem;
   align-items: stretch;
   scroll-margin-top: 7rem;
