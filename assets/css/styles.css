@@ -528,6 +528,13 @@ a {
   transform: scale(1.75);
 }
 
+.lead-photo-frame .lead-photo-vivian {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-position: 72% 42%;
+}
+
 .headshot-placeholder {
   display: grid;
   place-items: center;
