@@ -285,6 +285,44 @@ a {
   flex-direction: column;
 }
 
+.leadership-headshots {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 1.25rem;
+  padding: 0.65rem 0;
+}
+
+.leadership-headshot {
+  width: clamp(4.5rem, 8vw, 6rem);
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 3px solid var(--white);
+  border-radius: 50%;
+  background: var(--secondary);
+  box-shadow: 0 6px 16px rgba(0, 69, 81, 0.14);
+}
+
+.leadership-headshot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.leadership-headshot-maria {
+  object-position: 50% 34%;
+}
+
+.leadership-headshot-abigail {
+  object-position: 52% 40%;
+  transform: scale(1.65);
+}
+
+.leadership-headshot-vivian {
+  object-position: 72% 42%;
+}
+
 .update-image {
   display: block;
   width: 100%;
@@ -406,7 +444,7 @@ a {
 
 .survey-section {
   display: grid;
-  grid-template-columns: minmax(220px, 0.65fr) minmax(0, 1.35fr);
+  grid-template-columns: 1fr;
   gap: 1.5rem;
   align-items: stretch;
   scroll-margin-top: 7rem;
